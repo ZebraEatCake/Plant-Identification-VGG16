@@ -1,18 +1,31 @@
 This project uses deep learning to classify houseplant species and detect plant diseases from images using two fine-tuned VGG16 models.
 
 📁 Directory Structure
+
 ├── input_planttype/                       # Place images for plant type classification here
+
 ├── input_plantdisease/                    # Place images for plant disease detection here
+
 ├── main.py                                # Main script to run predictions
+
 ├── modified_vgg16.py                      # Custom VGG16 model architecture
+
 ├── otsu_canny.py                          # Applies Otsu thresholding + Canny edge detection
+
 ├── image_augmentation.py                  # Performs image rotation and flipping for augmentation
+
 ├── planttype.keras                        # Pretrained model for plant type classification
+
 ├── plantdisease.keras                     # Pretrained model for plant disease detection
+
 ├── Datset(disease)                        # Dataset includes total of 7152 plant disease images
+
 ├── Datset(disease)_otsucanny              # Dataset includes total of 7152 plant disease images processed using otsu thresholding followed by canny edge detection
+
 ├── Dataset (type)                         # Dataset includes total of 1500 plant type images
+
 ├── Dataset (type)_otsucanny_augmented     # Dataset includes a total of 6000 plant type images that were processed using Otsu thresholding and canny edge detection, followed by augmentation techniques 
+
 ├── Dataset (type)_augmetned               # Dataset includes total of 6000 plant type images after augmentation
 
 
