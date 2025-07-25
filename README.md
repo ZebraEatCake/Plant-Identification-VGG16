@@ -38,18 +38,14 @@ Place all relevant images inside the input_plantdisease folder.
 
 3. Run the Classifier
 Simply execute the following command:
-
 python main.py
 
-4. Results
+5. Results
 The program will generate predictions for each image.
-Outputs include:
-
-Predicted Class
-Confidence Score
-Plant Care Tips (for disease cases)
+Outputs include: Predicted Class, Confidence Score, Plant Care Tips (for disease cases)
 
 🧠 Model Architecture
+
 The model used is a modified VGG16 CNN architecture.
 
 The code defining the network can be found in modified vgg16.py.
@@ -66,5 +62,6 @@ Horizontal and vertical flips
 Useful for expanding your dataset before training or evaluation.
 
 📌 Notes
+
 Image input formats should be .jpg, .jpeg, or .png.
 Ensure consistent naming for files and avoid using special characters in filenames.
